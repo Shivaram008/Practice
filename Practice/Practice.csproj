@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.BReadBWrite</StartupObject>
+    <StartupObject>Practice.TReadandTWrite</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="ActionDelegate.cs" />
     <Compile Include="BReadBWrite.cs" />
+    <Compile Include="TReadandTWrite.cs" />
     <Compile Include="DelegateEx.cs" />
     <Compile Include="File1.cs" />
     <Compile Include="File2.cs" />
