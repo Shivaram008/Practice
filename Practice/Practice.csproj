@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GenericColl</StartupObject>
+    <StartupObject>Practice.Serialization</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="ExceptHan.cs" />
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="GenericColl.cs" />
+    <Compile Include="Serialization.cs" />
     <Compile Include="TReadandTWrite.cs" />
     <Compile Include="DelegateEx.cs" />
     <Compile Include="File1.cs" />
