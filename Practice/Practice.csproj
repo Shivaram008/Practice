@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.TReadandTWrite</StartupObject>
+    <StartupObject>GenericColl</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,9 @@
   <ItemGroup>
     <Compile Include="ActionDelegate.cs" />
     <Compile Include="BReadBWrite.cs" />
+    <Compile Include="ExceptHan.cs" />
+    <Compile Include="ExceptionHandling.cs" />
+    <Compile Include="GenericColl.cs" />
     <Compile Include="TReadandTWrite.cs" />
     <Compile Include="DelegateEx.cs" />
     <Compile Include="File1.cs" />
