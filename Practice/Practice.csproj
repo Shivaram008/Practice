@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Serialization</StartupObject>
+    <StartupObject>Practice.Event2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="ActionDelegate.cs" />
     <Compile Include="BReadBWrite.cs" />
+    <Compile Include="Event1.cs" />
+    <Compile Include="Event2.cs" />
     <Compile Include="ExceptHan.cs" />
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="GenericColl.cs" />
