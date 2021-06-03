@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Event2</StartupObject>
+    <StartupObject>Practice.Event3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="BReadBWrite.cs" />
     <Compile Include="Event1.cs" />
     <Compile Include="Event2.cs" />
+    <Compile Include="Event3.cs" />
     <Compile Include="ExceptHan.cs" />
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="GenericColl.cs" />
