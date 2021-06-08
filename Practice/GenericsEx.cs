@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    public class GenericsEx
+    public class GenericsEx 
     {
         public static void Display<T1, T2>(Dictionary<T1, T2> d)
         {
@@ -46,6 +46,8 @@ namespace Practice
             Display<int, int>(b);
             Display<string, string>(c);
             Console.ReadKey();
+
+            
         }
     }
 }

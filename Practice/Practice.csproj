@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Event3</StartupObject>
+    <StartupObject>Practice.LinqMethod</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,13 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionDelegate.cs" />
+    <Compile Include="Assignment.cs" />
+    <Compile Include="Assignment1.cs" />
+    <Compile Include="BasicStack.cs" />
     <Compile Include="BReadBWrite.cs" />
     <Compile Include="Event1.cs" />
     <Compile Include="Event2.cs" />
     <Compile Include="Event3.cs" />
+    <Compile Include="Event4.cs" />
     <Compile Include="ExceptHan.cs" />
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="GenericColl.cs" />
+    <Compile Include="LinqMethod.cs" />
+    <Compile Include="PredicateDelegate.cs" />
     <Compile Include="Serialization.cs" />
     <Compile Include="TReadandTWrite.cs" />
     <Compile Include="DelegateEx.cs" />

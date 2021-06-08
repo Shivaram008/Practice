@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    class Program
+    class Event4
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }

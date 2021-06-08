@@ -20,9 +20,12 @@ namespace Practice
         public static void Main()
         {
             GenericDelegates g = new GenericDelegates();
+            //Numbers<int, int> n = new Numbers<int,int>(Add);
             Numbers<int, int> n = Add;
             n(10, 20);
             
+            Numbers<double, double> m=g.Mul;
+            m(10, 5);
             Console.ReadKey();
         }
     }

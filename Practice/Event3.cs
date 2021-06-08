@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Practice
 {
-	public delegate void Del1(string name);
+	public delegate void Del1(string n);
 	public class Event3
 	{
 		public static void Main()
