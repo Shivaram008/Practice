@@ -11,18 +11,17 @@ namespace Practice
     {
         public static int index=-1 ;
         static List<int> list;
-        public Ramforeach(List<int> li)
+        public Ramforeach(List<int> li)             //Initialization in constructor
         {
-            Console.WriteLine("Const");
             list = li;
         }
         
-        public int Current
+        public int Current                          //returns the current element
         {
             get { return list[index]; }
         }
         
-        public bool MoveNext()
+        public bool MoveNext()                      //returns true if the index less than the count else false.
         {
             if(index<Ramforeach.list.Count)
             {
@@ -54,11 +53,11 @@ namespace Practice
         public static void Main()
         {
             
-            List<int> l1 = new List<int>() { 1, 2, 3 ,4};
+            List<int> l1 = new List<int>() { 1, 2, 3 ,4};       //List initialization
             
-            Ram r = new Ram(l1);
+            Ram r = new Ram(l1);                                //Object creation for the class to get enumerator
            
-            try
+            try                                                 //Iterating over the list
             {
                 foreach(var i in r)
                 {
