@@ -8,19 +8,21 @@ namespace Practice
 {
     class ActionDelegate
     {
-        public static void Display(string s)
+        public  void Display(string s)
         {
             Console.WriteLine("Hello ,"+s);
         }
-        public static void Show(String s)
+        public  void Show(String s)
         {
             Console.WriteLine("Show method :"+s);
         }
         public static void Main()
         {
-            Action<string> a=Display;
-            a += Show;
+            ActionDelegate z = new ActionDelegate();
+            Action<string> a=z.Display;
+            a += z.Show;
             a("Ram");
+
         }
     }
 }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.LinqMethod</StartupObject>
+    <StartupObject>Practice.Extension3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,16 +49,23 @@
     <Compile Include="ActionDelegate.cs" />
     <Compile Include="Assignment.cs" />
     <Compile Include="Assignment1.cs" />
+    <Compile Include="Assignment2.cs" />
     <Compile Include="BasicStack.cs" />
     <Compile Include="BReadBWrite.cs" />
+    <Compile Include="Dynamics.cs" />
     <Compile Include="Event1.cs" />
     <Compile Include="Event2.cs" />
     <Compile Include="Event3.cs" />
     <Compile Include="Event4.cs" />
     <Compile Include="ExceptHan.cs" />
     <Compile Include="ExceptionHandling.cs" />
+    <Compile Include="Extension1.cs" />
+    <Compile Include="Extension2.cs" />
+    <Compile Include="Extension3.cs" />
     <Compile Include="GenericColl.cs" />
+    <Compile Include="LinqLambda.cs" />
     <Compile Include="LinqMethod.cs" />
+    <Compile Include="Nullable.cs" />
     <Compile Include="PredicateDelegate.cs" />
     <Compile Include="Serialization.cs" />
     <Compile Include="TReadandTWrite.cs" />
